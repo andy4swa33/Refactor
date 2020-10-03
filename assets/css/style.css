@@ -58,6 +58,13 @@ p {
     background-size: cover;
     background-position: center;
 }
+/* moved main ahead of the 2 floats below */
+main {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
 
 .float-left {
     float: left;
@@ -65,15 +72,8 @@ p {
 }
 
 .float-right {
-    float: right;                                                                                                                                                                                                                                                                                                                                                                                                                                               
-    margin-left: 25px;
-}
-
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
+    float: right;                                               margin-left: 25px;
+}                                                                                                                     
 
 .benefits {
     margin-right: 20px;
@@ -198,3 +198,5 @@ footer {
 .footer h2 {
     font-size: 20px;
 }
+                                                                                                                                                                                                   
+
